@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px 0;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    color: white;
+    text-align: center;
+}
+
+.shadow {
+    background-color: #333;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.border-radius {
+    background-color: #555;
+    border-radius: 50%;
+}
+
+.gradient {
+    background-image: linear-gradient(to right, #6dd5ed, #2193b0);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.grid-item {
+    background-color: #666;
+    color: white;
+    padding: 20px;
+}

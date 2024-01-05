@@ -1,0 +1,46 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 24px;
+}
+
+#about-author {
+    background-color: white;
+    margin: 30px auto;
+    width: 80%;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+#about-author h1 {
+    color: #007bff;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#about-author p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
